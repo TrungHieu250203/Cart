@@ -1,0 +1,39 @@
+.wrapper {
+    background: #645cff;
+    height: 60px;
+}
+
+nav {
+    width: 1150px;
+    padding-top: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a:first-child {
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+nav a:last-child {
+    position: relative;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+nav a > span {
+    position: absolute;
+    left: 24px;
+    width: 17.5px;
+    height: 17.5px;
+    border-radius: 50%;
+    background: #a29dff;
+}
